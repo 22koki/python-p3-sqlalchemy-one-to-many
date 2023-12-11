@@ -2,7 +2,7 @@ import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from conftest import SQLITE_URL
-from ..models import Game, Review
+from models import Game, Review
 
 @pytest.fixture
 def session():
